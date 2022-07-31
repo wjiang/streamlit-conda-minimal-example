@@ -14,3 +14,6 @@ import iotbx
 st.info(dir(iotbx))
 st.info(dir(cctbx))
 st.info(f"cctbx version: {cctbx.get_version()}")
+
+
+from cctbx.array_family import flex
