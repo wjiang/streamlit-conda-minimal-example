@@ -15,5 +15,8 @@ st.info(dir(iotbx))
 st.info(dir(cctbx))
 st.info(f"cctbx version: {cctbx.get_version()}")
 
-
+st.info(sys.path)
+for p in sys.path:
+  st.info(Path(p).glob("*"))
+  
 from cctbx.array_family import flex
