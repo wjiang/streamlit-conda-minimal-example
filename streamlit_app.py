@@ -17,6 +17,7 @@ st.info(f"cctbx version: {cctbx.get_version()}")
 
 st.info(sys.path + "/home/appuser/.conda/lib/python3.9/lib-dynload /home/appuser/venv/lib/python3.9/lib-dynload".split())
 for p in sys.path:
+  if p.find("lib-dynload")==-1: continue
   st.info(f'{p}: {[str(item) for item in Path(p).glob("*")]}')
   
 st.info([str(item) for item in Path("/").glob("**/boost_python_meta_ext*")])
