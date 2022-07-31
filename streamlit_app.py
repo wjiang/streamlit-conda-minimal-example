@@ -19,6 +19,6 @@ st.info(sys.path + "/home/appuser/.conda/lib/python3.9/lib-dynload /home/appuser
 for p in sys.path:
   st.info(f'{p}: {[str(item) for item in Path(p).glob("*")]}')
   
-st.info(Path("/").glob("**/boost_python_meta_ext*")
+st.info(Path("/").glob("**/boost_python_meta_ext*"))
 
 from cctbx.array_family import flex
