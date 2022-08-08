@@ -2,8 +2,11 @@ name: test_conda
 channels:
   - defaults
   - conda-forge
+  - bioconda
 dependencies:
   - cctbx-base
+  - scons
+  - hmmer
   - python=3.9
   - pip
   - pip:
@@ -11,3 +14,4 @@ dependencies:
       - pandas
       - numpy
       - scipy
+      - git+https://gitlab.com/gchojnowski/findmysequence.git
