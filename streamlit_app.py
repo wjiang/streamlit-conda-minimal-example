@@ -23,10 +23,10 @@ st.info(list(Path("/").rglob("*hmmer*")))
 st.info(list(Path("/").rglob("*findmysequence*")))
 
 st.info(os.environ["PATH"])
-st.info(shutil.which("phmmer")
-st.info(shutil.which("findmysequence")
+st.info(shutil.which("phmmer"))
+st.info(shutil.which("findmysequence"))
 
 os.environ["PATH"] += os.pathsep + "/home/appuser/.conda/bin"
 st.info(os.environ["PATH"])
-st.info(shutil.which("phmmer")
-st.info(shutil.which("findmysequence")
+st.info(shutil.which("phmmer"))
+st.info(shutil.which("findmysequence"))
