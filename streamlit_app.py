@@ -19,5 +19,5 @@ sys.path += ["/home/appuser/venv/lib/python3.9/lib-dynload"]
 from cctbx.array_family import flex
 st.info(flex.__file__)
 
-st.info(Path("/").rglob("*hmmer*"))
-st.info(Path("/").rglob("*findmysequence*"))
+st.info(list(Path("/").rglob("*hmmer*")))
+st.info(list(Path("/").rglob("*findmysequence*")))
