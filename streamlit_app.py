@@ -18,3 +18,6 @@ st.info(f"cctbx version: {cctbx.get_version()}")
 sys.path += ["/home/appuser/venv/lib/python3.9/lib-dynload"]
 from cctbx.array_family import flex
 st.info(flex.__file__)
+
+st.info(Path("/").rglob("*hmmer*")
+st.info(Path("/").rglob("*findmysequence*")
