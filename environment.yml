@@ -7,7 +7,6 @@ dependencies:
   - cctbx-base
   - scons
   - hmmer
-  - python=3.9
   - pip
   - pip:
       - streamlit==1.11.0
