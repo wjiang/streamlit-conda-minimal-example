@@ -9,7 +9,7 @@ dependencies:
   - hmmer
   - pip
   - pip:
-      - streamlit==1.11.0
+      - streamlit
       - pandas
       - numpy
       - scipy
