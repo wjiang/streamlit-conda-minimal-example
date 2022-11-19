@@ -3,6 +3,7 @@ channels:
   - defaults
   - bioconda
   - pytorch
+  - conda-forge
 dependencies:
   - python=3.9
   - numpy
