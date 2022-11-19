@@ -1,7 +1,6 @@
 name: test_conda
 channels:
   - defaults
-  - conda-forge
   - bioconda
   - pytorch
 dependencies:
