@@ -10,7 +10,6 @@ dependencies:
   - h5py
   - pandas
   - scipy
-  - cctbx-base
   - hmmer
   - pyfastx
   - bokeh=2.4.3
