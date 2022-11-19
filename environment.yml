@@ -3,14 +3,15 @@ channels:
   - defaults
   - conda-forge
   - bioconda
+  - pytorch
 dependencies:
+  - python=3.9
+  - numpy
+  - h5py
+  - pandas
+  - scipy
   - cctbx-base
-  - scons
   - hmmer
-  - pip
-  - pip:
-      - streamlit
-      - pandas
-      - numpy
-      - scipy
-      - git+https://gitlab.com/gchojnowski/findmysequence.git
+  - pyfastx
+  - bokeh=2.4.3
+  - pytorch
